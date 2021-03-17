@@ -1,0 +1,5 @@
+com\mindtree\pavan\core\servlets\SimpleServletTest.class
+com\mindtree\pavan\core\filters\LoggingFilterTest.class
+com\mindtree\pavan\core\listeners\SimpleResourceListenerTest.class
+com\mindtree\pavan\core\models\HelloWorldModelTest.class
+com\mindtree\pavan\core\schedulers\SimpleScheduledTaskTest.class

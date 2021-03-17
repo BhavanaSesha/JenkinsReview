@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>pavan - UI apps</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="createdBy">HP</entry>
+<entry key="created">2021-03-17T22:44:06.469+05:30</entry>
+<entry key="groupId">com.mindtree</entry>
+<entry key="name">pavan.ui.apps</entry>
+<entry key="description">UI apps package for pavan</entry>
+<entry key="artifactId">pavan.ui.apps</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">mixed</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">pavan</entry>
+</properties>
