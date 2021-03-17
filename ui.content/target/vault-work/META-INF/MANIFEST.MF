@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: HP
+Build-Jdk: 11.0.10
+Implementation-Title: jenkinsreview - UI content
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.mindtree
+Content-Package-Roots: /conf/jenkinsreview,/content/dam/jenkinsreview,/c
+ ontent/jenkinsreview
+Content-Package-Description: UI content package for jenkinsreview
+Content-Package-Id: jenkinsreview:jenkinsreview.ui.content:1.0-SNAPSHOT
+Content-Package-Type: content
+

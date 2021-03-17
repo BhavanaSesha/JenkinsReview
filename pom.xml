@@ -13,10 +13,7 @@
  |  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  |  See the License for the specific language governing permissions and
  |  limitations under the License.
--->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+--><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mindtree</groupId>
     <artifactId>jenkinsreview</artifactId>
@@ -31,7 +28,8 @@
         <module>ui.content</module>
         <module>it.tests</module>
         <module>it.launcher</module>
-    </modules>
+    <module>pavan</module>
+  </modules>
 
     <properties>
         <aem.host>localhost</aem.host>
@@ -111,8 +109,8 @@
                     <artifactId>frontend-maven-plugin</artifactId>
                     <version>1.7.6</version>
                     <configuration>
-                        <nodeVersion>v10.13.0</nodeVersion>
-                        <npmVersion>6.9.0</npmVersion>
+                        <nodeVersion>v12.12.0</nodeVersion>
+    			<npmVersion>3.10.8</npmVersion>
                     </configuration>
                     <executions>
                         <execution>
@@ -280,7 +278,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -300,7 +298,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -321,7 +319,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>

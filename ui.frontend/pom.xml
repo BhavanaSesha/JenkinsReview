@@ -53,6 +53,7 @@
                             <goal>npm</goal>
                         </goals>
                         <configuration>
+			 <nodeVersion>v10.16.0</nodeVersion>
                             <arguments>run prod</arguments>
                         </configuration>
                     </execution>
