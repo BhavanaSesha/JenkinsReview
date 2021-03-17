@@ -1,0 +1,5 @@
+com\mindtree\jenkinsreview\core\listeners\SimpleResourceListenerTest.class
+com\mindtree\jenkinsreview\core\schedulers\SimpleScheduledTaskTest.class
+com\mindtree\jenkinsreview\core\filters\LoggingFilterTest.class
+com\mindtree\jenkinsreview\core\servlets\SimpleServletTest.class
+com\mindtree\jenkinsreview\core\models\HelloWorldModelTest.class
